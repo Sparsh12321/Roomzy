@@ -1,0 +1,17 @@
+<%layout("/layouts/boilerplate.ejs")-%>
+<body>
+    <h3>Updatelisting</h3>
+    <form method="post" action="/listings/<%=ListingUp._id%>?_method=PUT">
+        <input name="title"  type="text" value=<%=ListingUp.title%>>
+        <br>      <br>
+        <textarea name="description"><%=ListingUp.description%></textarea>
+        <br>      <br>
+        <input type="text" name="image"  value=<%=ListingUp.image.url%>>
+        <br>      <br>
+        <input type ="number" name="price" value=<%=ListingUp.price%>>
+        <br>      <br>
+        <input type ="text" name="location" value=<%=ListingUp.location%>>
+        <br>      <br>
+        <input type ="text" name="country" value=<%=ListingUp.country%>>
+        <button>Submit</button>
+    </form>
