@@ -71,13 +71,11 @@ npm install
 npm start
 ```
 
-Visit: `http://localhost:3000`
+Visit: `roomzy-1.onrender.com`
 
 ---
 
 ## 📸 Screenshots
-
-> Add your screenshots in the `/screenshots` folder and update these paths:
 
 
 Home Page:![Screenshot 2025-04-10 012920](https://github.com/user-attachments/assets/f28c5eca-e1f5-4abc-b43c-b4723c3e9f7a)
