@@ -6,6 +6,7 @@ Roomzy is a full-stack web application that allows users to list, explore, and b
 ## 🌐 Live Demo
 
 🔗 [Roomzy Live Demo](https://roomzy-1.onrender.com)
+![Screenshot 2025-04-10 013025](https://github.com/user-attachments/assets/6663a21b-11a2-40d6-9a9c-10301afa7ae2)
 
 ---
 
