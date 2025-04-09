@@ -1,0 +1,57 @@
+<% layout("/layouts/boilerplate.ejs") -%>
+
+<div class="row justify-content-center mt-3">
+    <div class="col-md-8">
+    <h3 class="mb-4">Update Listing</h3>
+      
+    <form method="post" action="/listings/<%= ListingUp._id %>?_method=PUT" novalidate class="needs-validation" enctype="multipart/form-data" >
+    
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input name="title" type="text" value="<%= ListingUp.title %>" class="form-control" required>
+            <div class="invalid-feedback">Enter a Title</div>
+        </div>
+        
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <textarea name="description" class="form-control"required><%= ListingUp.description %></textarea>
+            <div class="invalid-feedback">Enter a Short Description</div>
+        </div>
+ 
+        <div class="mb-3"> 
+            Image Preview
+            <br>
+            <img src="<%=Listingurl%>" alt="<%= ListingUp.title %>">
+        </div>
+
+        <div class="mb-3"> 
+            <label for="image" class="form-label">Upload New Image Link</label>
+            <input type="file" name="image" class="form-control">
+            <div class="invalid-feedback">Insert a Valid Image</div>
+        </div>
+     <div class="row">  <div class="mb-3 col-md-4"> 
+        <label for="price" class="form-label">Price</label>
+        <input type="number" name="price" value="<%= ListingUp.price %>" class="form-control"required>
+        <div class="invalid-feedback">Enter a Valid Price</div>
+    </div>
+
+    <div class="mb-3 col-md-8"> 
+        <label for="country" class="form-label">Country</label>
+        <input type="text" name="country" value="<%= ListingUp.country %>" class="form-control"required>
+        <div class="invalid-feedback">Invalid Country Name</div>
+    </div>
+</div>
+      
+       
+        <div class="mb-3"> 
+            <label for="location" class="form-label">Location</label>
+            <input type="text" name="location" value="<%= ListingUp.location %>" class="form-control" required>
+            <div class="invalid-feedback">Enter a Valid Location</div>
+        </div>
+ 
+       
+        
+        <button class="btn btn-dark  add-btn">Submit</button>
+    </div>    </div>
+
+</body>
