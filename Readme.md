@@ -71,7 +71,7 @@ npm install
 npm start
 ```
 
-Visit: `roomzy-1.onrender.com`
+Visit: `http://localhost:8080/listings`
 
 ---
 
