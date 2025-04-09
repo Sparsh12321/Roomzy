@@ -5,7 +5,7 @@ Roomzy is a full-stack web application that enables users to list, browse, and b
 
 ## 🌐 Live Demo
 
-*Coming Soon*
+[Roomzy Live Demo](https://roomzy-1.onrender.com)
 
 ---
 
@@ -83,7 +83,7 @@ http://localhost:3000
 
 ## 📸 Screenshots
 
-*Add screenshots of homepage, login page, listing details, etc. to the `/screenshots` folder and embed them here:*
+
 
 ```markdown
 ![Home Page](screenshots/homepage.png)
