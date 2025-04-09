@@ -6,7 +6,7 @@ Roomzy is a full-stack web application that allows users to list, explore, and b
 ## 🌐 Live Demo
 
 🔗 [Roomzy Live Demo](https://roomzy-1.onrender.com)
-![Screenshot 2025-04-10 013025](https://github.com/user-attachments/assets/6663a21b-11a2-40d6-9a9c-10301afa7ae2)
+
 
 ---
 
@@ -79,7 +79,7 @@ Visit: `http://localhost:3000`
 
 > Add your screenshots in the `/screenshots` folder and update these paths:
 
-```md
+
 Home Page:![Screenshot 2025-04-10 012920](https://github.com/user-attachments/assets/f28c5eca-e1f5-4abc-b43c-b4723c3e9f7a)
 Listing View:![Screenshot 2025-04-10 012938](https://github.com/user-attachments/assets/e36ed6a2-f334-402c-bc2b-2e5f721376a5)
 ![Screenshot 2025-04-10 013025](https://github.com/user-attachments/assets/6844bf11-395a-4070-8493-98e145f975a3)
@@ -87,7 +87,7 @@ Edit Listing:![Screenshot 2025-04-10 013036](https://github.com/user-attachments
 Signup/Login:![Screenshot 2025-04-10 013054](https://github.com/user-attachments/assets/3dec2c99-4b65-49f0-b30b-3ff0b764f908)
 ![Screenshot 2025-04-10 013048](https://github.com/user-attachments/assets/cda296ef-0c8e-4560-a842-02a2aa40028a)
 
-```
+
 
 ---
 
